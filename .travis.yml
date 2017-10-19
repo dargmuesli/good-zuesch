@@ -1,0 +1,16 @@
+language: java
+jdk:
+- oraclejdk9
+deploy:
+  provider: releases
+  api_key:
+    secure: Lzk52f3D6URvQ45KfQACUvtVsObg6cSl7L660wYwocYvOUyC++SjJHcofexz9ZNPMZkt3ijtErVwJ53p/fKrpTUh8ymBcqR6ZW3xCDO+6BXOVlHGlrDL/p/WjQXYD6cyLUz0OAH8dwjIq7/Y2oHwoctcb6yLaGr79SXFvOyea083cmnsw6I4kLNiaUhIgvW1KQIzgXMJqgBdtvtQsgmspJkbk7vHcTbvEpMmoV91L+SfxJqzdSeIaVlEz42es7Jtc1CB9ANBg0l4gthuBNJXtKHK+3e/n+tYbMGsUGqJG02xVRB/DAA8R6H1fYJWVSBj6Ssw1NZDsrxv3B7pSyiB4/HG+yLXG+wOV8Cloic0EWTebn2iuwEAnwPjPsnBNM/g6VBzgbYINLEwZEypf0u3WsILyxUrQtCEVF2FMkTgMPs2gmhGYR4G4wl5Wx7QzINqZbcizi5r4gaSfSjX+j3AjaZi6bq2UdaV3GkAEVjRMIat2cPtRgwoRievugs/nX+JHGxYjKYWX/J73xpsUTQNKFx9UMNMRYylj68Kl1ReB8AiiwXFJOp8UT0zLXyhCl7rxIeOK+3NWty88uXEZE043mxSQ7gK2rup8OJXCNCFC6WggSGi+uvCKKUjccgI9qUi+r5+VR/8xSeOu1l/ljQTY9C5pb0nqHPrnKSvqvN/8RE=
+  file: target/good_zuesch-$TRAVIS_TAG.jar
+  skip_cleanup: true
+  on:
+    tags: true
+    repo: Dargmuesli/good-zuesch
+notifications:
+  email:
+    on_success: never
+    on_failure: always
