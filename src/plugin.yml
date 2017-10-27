@@ -1,6 +1,6 @@
 name: good-zuesch
 main: de.jonas_thelemann.good_zuesch.GoodZuesch
-version: 1.0.1
+version: 1.0.2
 description: Writes "züsch" for a player in chat who goes to bed on a Minecraft server.
 author: Jonas Thelemann
 website: jonas-thelemann.de
