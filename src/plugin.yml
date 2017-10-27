@@ -4,3 +4,13 @@ version: 1.0.1
 description: Writes "züsch" for a player in chat who goes to bed on a Minecraft server.
 author: Jonas Thelemann
 website: jonas-thelemann.de
+commands:
+  goodzuesch:
+    description: Commands for configuring a sleep message.
+    usage: |
+      /<command> [enable, start] - enable Good-Zuesch.
+      /<command> [disable, stop] - disable Good-Zuesch.
+      /<command> status - displays the current plugin configuration.
+      /<command> message <text> - set the sleep message.
+      /<command> reset - resets this plugin's configuration.
+
