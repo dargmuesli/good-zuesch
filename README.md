@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/Dargmuesli/good-zuesch.svg?branch=master)](https://travis-ci.org/Dargmuesli/good-zuesch)
+[![Known Vulnerabilities](https://snyk.io/test/github/dargmuesli/good-zuesch/badge.svg)](https://snyk.io/test/github/dargmuesli/good-zuesch)
 
 # GoodZuesch
 Writes "züsch" for a player in chat who goes to bed on a Minecraft server.
