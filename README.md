@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Dargmuesli/good-zuesch.svg?branch=master)](https://travis-ci.org/Dargmuesli/good-zuesch)
+[![Build Status](https://travis-ci.org/dargmuesli/good-zuesch.svg?branch=master)](https://travis-ci.org/dargmuesli/good-zuesch)
 [![Known Vulnerabilities](https://snyk.io/test/github/dargmuesli/good-zuesch/badge.svg)](https://snyk.io/test/github/dargmuesli/good-zuesch)
 
 # GoodZuesch
