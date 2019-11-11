@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/dargmuesli/good-zuesch.svg?branch=master)](https://travis-ci.org/dargmuesli/good-zuesch)
+[![build status](https://travis-ci.com/dargmuesli/good-zuesch.svg?branch=master)](https://travis-ci.com/dargmuesli/good-zuesch "build status")
 
 # GoodZuesch
 Writes "züsch" for a player in chat who goes to bed on a Minecraft server.
